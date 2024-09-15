@@ -6,7 +6,9 @@ A simple and responsive To-Do List application built with React and styled using
 
 - Add new tasks.
 - Mark tasks as completed.
+- Edit tasks.
 - Delete tasks.
+- Filter tasks (All,Active)
 - Responsive design, works well on mobile, tablet, and desktop.
 - Interactive and modern UI using Tailwind CSS.
 - Persistent data using local storage .
