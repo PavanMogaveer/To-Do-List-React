@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Responsive To-Do List App
 
 A simple and responsive To-Do List application built with React and styled using Tailwind CSS. The app allows users to add, complete, and delete tasks, while also adapting to different screen sizes for a seamless user experience across devices.
@@ -21,3 +22,13 @@ A simple and responsive To-Do List application built with React and styled using
 - **LocalStorage** : For persisting tasks even after the page is refreshed.
 
 
+=======
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+>>>>>>> a8bafd7 (added extra feature)

@@ -1,13 +1,20 @@
 import { useState, useEffect } from 'react'
 import Navbar from './components/Navbar'
+<<<<<<< HEAD
 import { v4 as uuidv4 } from 'uuid';
 import { TiEdit } from "react-icons/ti";
 import { MdDeleteForever } from "react-icons/md";
+=======
+import Task from './components/Task'
+
+
+>>>>>>> a8bafd7 (added extra feature)
 
 
 function App() {
 
 
+<<<<<<< HEAD
   const [todo, setTodo] = useState("")
   const [todos, setTodos] = useState([])
   const [showfinished, setshowfinished] = useState(true)
@@ -71,10 +78,13 @@ function App() {
   const togglefinish = (e) => {
     setshowfinished(!showfinished)
   }
+=======
+>>>>>>> a8bafd7 (added extra feature)
 
   return (
     <>
       <Navbar />
+<<<<<<< HEAD
       <div className="box  max-w-[90vw] mx-auto min-h-[85vh] bg-blue-100 p-3 rounded-3xl  my-5  md:p-7 md:max-w-[60vw]   ">
         <h2 className='font-bold text-2xl text-center'>All Your To-Do's At One Place</h2>
         <div className="add my-2">
@@ -107,6 +117,10 @@ function App() {
 
         </div>
       </div>
+=======
+      <Task/>
+      
+>>>>>>> a8bafd7 (added extra feature)
 
     </>
   )
