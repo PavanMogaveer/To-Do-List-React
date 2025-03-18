@@ -1,34 +1,25 @@
-<<<<<<< HEAD
-# Responsive To-Do List App
+# 📝 Task Management App
 
-A simple and responsive To-Do List application built with React and styled using Tailwind CSS. The app allows users to add, complete, and delete tasks, while also adapting to different screen sizes for a seamless user experience across devices.
+A simple and responsive Task Management App built using **React** and **Firebase**. This app helps users efficiently manage their tasks with features like task history, customizable views, and real-time updates.
 
-## Features
+## 🚀 Features
 
-- Add new tasks.
-- Mark tasks as completed.
-- Edit tasks.
-- Delete tasks.
-- Filter tasks (All,Active)
-- Responsive design, works well on mobile, tablet, and desktop.
-- Interactive and modern UI using Tailwind CSS.
-- Persistent data using local storage .
+- ✅ Add, edit, and delete tasks
+- 📌 Mark tasks as completed or pending
+- 📊 Customizable task views (list, grid, priority-based)
+- 🕒 Task history tracking
+- 🔄 Real-time updates using Firebase
+- 📱 Fully responsive UI
 
+## 🛠️ Technologies Used
 
-## Built With
+- **Frontend:** React, Tailwind CSS  
+- **Backend:** Firebase (Firestore for database, Authentication)  
+- **State Management:** React Context API  
 
-- **React**: A JavaScript library for building user interfaces.
-- **Tailwind CSS**: A utility-first CSS framework for styling.
-- **LocalStorage** : For persisting tasks even after the page is refreshed.
+## 📂 Project Setup
 
-
-=======
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
->>>>>>> a8bafd7 (added extra feature)
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/PavanMogaveer/To-Do-List-React.git
+   
